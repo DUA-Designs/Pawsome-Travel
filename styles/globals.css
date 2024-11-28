@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+main.main{
+    height: calc(100% - 50px - 64px);
+}
+nav{
+    z-index: 9999;
+}
+.z-99999{
+    z-index: 99999;
+}
+.pagewrapper{
+    display: flex;
+    
+    gap: 20px;
+    height: 100%;
+ 
+
+    
+}
+.homepage {
+    width: 100%;
+    height: 100%;
+     justify-content: center;
+     align-items: center;
+}
+.homepage{
+    align-items: center;
+    
+}
+
+.restaurant-page{
+    overflow: hidden;
+width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+}
+.restaurant-page .leftColumn{
+    width: calc(40% - 10px );
+    height: calc(99% - 88px);
+    overflow-y: auto;
+  /* background: #ffc10729; */
+}
+.restaurant-page .rightColumn{
+    width: calc(60% - 10px );
+     height: calc(99% - 88px);
+    overflow-y: auto;
+  
+}
+.leaflet-container{
+    width: 100%;
+    height: 99%;
+}
+
+.leaflet-pane{
+    z-index: 3 !important;
+}
+.leaflet-top, .leaflet-bottom{
+    z-index: 5 !important;
+}
+.location-modal{
+     z-index: 999999;
+}
